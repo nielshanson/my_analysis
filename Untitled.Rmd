@@ -1,0 +1,31 @@
+---
+title: "My Analysis"
+author: "Niels Hanson"
+date: "April 15, 2015"
+output:
+  html_document:
+    keep_md: yes
+    toc: yes
+---
+
+# Preamble
+
+* load required librareis
+
+```{r}
+# install.packages("GGally")
+library("GGally")
+```
+
+* Load the HOT metadata from a tab-separate value file:
+
+```{r}
+hot_metadata <- read.table("data/HOT_METADATA2.txt", header=T, row.names=1, sep = "\t")
+```
+
+
+*
+
+
+
+
